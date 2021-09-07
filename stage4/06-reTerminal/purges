@@ -1,5 +1,5 @@
 python2.7
-raspberrypi-kernel-headers
+#raspberrypi-kernel-headers
 git
 #fonts-freefont-ttf
 #fonts-dejavu-core
