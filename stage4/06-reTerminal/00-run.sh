@@ -8,7 +8,7 @@ if [ "X$GIT_MODULE" != "X" ]; then
 
 	on_chroot << EOF
 cd ${MODULE_PATH}
-sudo ARCH=arm64 ./scripts/reTerminal.sh
+sudo ARCH=arm64 ./scripts/reTerminal.sh --device reTerminal-plus
 EOF
 
 	rm -rfv "${ROOTFS_DIR}${MODULE_PATH}"
